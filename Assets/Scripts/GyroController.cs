@@ -18,12 +18,17 @@ public class GyroController : MonoBehaviour
     Quaternion qRefObject = Quaternion.identity;
     Quaternion qRefGyro = Quaternion.identity;
     Gyroscope gyro;
+
     GameObject controlledObject;
+
+    void Awake()
+    {
+        Paused = false;
+    }
 
     // Use this for initialization
     void Start()
     {
-        Paused = false;
         gyro = Input.gyro;
         gyro.enabled = true;
         gyro.updateInterval = 0.01f;
