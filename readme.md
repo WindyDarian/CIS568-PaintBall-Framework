@@ -1,7 +1,7 @@
-CUDA Stream Compaction
+CIS568 Paint Splatter Ball Assignment Framework
 ======================
 
-**University of Pennsylvania, CIS 568: CIS568-Game Design Practicum**
+**University of Pennsylvania, CIS 568: Game Design Practicum**
 
 
 This is a homework assignment framework for an Augmented Reality paint splatter
