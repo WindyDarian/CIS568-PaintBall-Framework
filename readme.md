@@ -1,3 +1,9 @@
+CUDA Stream Compaction
+======================
+
+**University of Pennsylvania, CIS 568: CIS568-Game Design Practicum**
+
+
 This is a homework assignment framework for an Augmented Reality paint splatter
 ball game prototype for __CIS568-Game Design Practicum__ at University of Pennsylvania.
 The framework is created by Ruoyu Fan.
