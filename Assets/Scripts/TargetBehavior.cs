@@ -51,8 +51,7 @@ public class TargetBehavior : MonoBehaviour, ITrackableEventHandler
                 // TODO-2.b 
                 // Recalibrate reference quaternions at GyroController
                 //   and switch the Control of the camera between Vuforia and GyroController.
-                // You may want to use ResumeTracking(), PauseTracking() and 
-                //   GyroController.Paused .
+                // You may want to toggle GyroController.Paused .
                 tracked = true;
 
 
